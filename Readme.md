@@ -1,4 +1,4 @@
-* Студент: [Сергей Кравцов](https://up.htmlacademy.ru/yii/4/user/249461).
+* Студент: [Сергей Кравцов](https://htmlacademy.ru/profile/id249461).
 * Наставник: [Сергей Парфенов](https://htmlacademy.ru/profile/id926645).
 
 # Руководство по работе с проектом
