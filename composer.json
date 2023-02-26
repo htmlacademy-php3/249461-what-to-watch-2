@@ -1,0 +1,14 @@
+{
+    "name": "skrav/249461-what-to-watch-2",
+    "autoload": {
+        "psr-4": {
+            "WhatToWatch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "s.kravtsov"
+        }
+    ],
+    "require": {}
+}
