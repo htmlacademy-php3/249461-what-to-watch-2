@@ -2,12 +2,12 @@
 
 require_once ('vendor/autoload.php');
 
-use WhatToWatch\classes\RemoteRepository;
-use WhatToWatch\classes\HttpClient;
+use WhatToWatch\classes\GetFilmService;
+use WhatToWatch\classes\RemoteFilmRepository;
 
-$httpClient = new HttpClient();
-$repository = new RemoteRepository($httpClient);
+$repository = new RemoteFilmRepository();
+$film = new GetFilmService($repository);
 
-/*echo '<pre>';
-print_r($repository->getMovie('tt0944947'));
-echo '</pre>';*/
+echo '<pre>';
+print_r($film->getFilm('tt0944947'));
+echo '</pre>';
