@@ -1,13 +1,13 @@
 {
-    "name": "skrav/249461-what-to-watch-2",
+    "name": "neksen/00-what-to-watch",
     "autoload": {
         "psr-4": {
-            "WhatToWatch\\": "src/"
+            "Neksen\\00WhatToWatch\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "s.kravtsov"
+            "name": "neksen"
         }
     ],
     "require": {}
